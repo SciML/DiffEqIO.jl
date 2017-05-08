@@ -2,8 +2,8 @@ __precompile__()
 
 module DiffEqIO
 
-using DiffEqBase, DiffEqIO
-@reexport IterableTables
+using Reexport, DiffEqBase
+@reexport using IterableTables
 
 # package code goes here
 
